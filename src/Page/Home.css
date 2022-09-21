@@ -5,14 +5,18 @@ body {
    background-color: #F9FDFF;
 }
 
+.nav {
+    background-color: white;
+}
+
 h1 {
     font-family: 'Poppins';
     text-align: justify;
-    font-size: 50pt;
+    font-size: 40pt;
     font-weight: bolder;
     margin-left: 5%;
     padding-top: 1%;
-    padding-bottom: 1%;
+    
 }
 
 .p1 {
@@ -21,10 +25,8 @@ h1 {
     
     font-family: 'Poppins';
     font-size: 14pt;
-    font-weight: bold;
     text-align: justify;
     font-weight: bold;
-    
     
 }
 
@@ -38,19 +40,20 @@ h1 {
 
 .p3 {
     color: #868686;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
     margin-left: 5%;
 }
 
 .btnView {
     color: white;
     font-size: 14pt;
-    background-color: #6800BA;
+    background-color: #864DFF;
     font-family: 'Poppins';
     font-weight: bold;
     border-radius: 5px;
-    
+    border: none;
     margin-bottom: 80px;
+    margin-top: 12%;
     margin-left: 150px;
     width: 200px;
     height: 40px;
@@ -67,6 +70,7 @@ h1 {
     float:right;
     margin-top: -50px;
     margin-right: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.115);
     
 }
 
@@ -85,15 +89,12 @@ h1 {
     width: 35%;
     height: 35%;
     float:right;
-    margin-top: -400px;
-    
-   
+    margin-top: -480px;
 }
 
 .logoone {
     width: 80px;
     height: 80px;
-    
     border-radius: 30px;
     margin-bottom: -20px;
     margin-top: -5px;
@@ -102,10 +103,10 @@ h1 {
 
 .imgtwo {
     float:right;
-    margin-top: -280px;
-    margin-right: 200px;
+    margin-top: -360px;
     width: 250px;
     height: 250px;
+
 
 }
 

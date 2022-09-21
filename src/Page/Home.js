@@ -11,7 +11,7 @@ function Home() {
     return (
         <section>
 
-            <div>
+            <div className='nav'>
                 <img src={logoone} className="logoone"></img>
                 <p className='p1'>Uai Design</p>
 

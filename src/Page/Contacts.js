@@ -2,6 +2,12 @@ import './Contacts.css'
 import phone from './phone.svg'
 import email from './email.svg'
 import location from './location.svg'
+import facebook from './facebook.svg'
+import instagram from './instagram.svg'
+import linkedin from './linkedin.svg'
+import behance from './behance.svg'
+import circulo from './circulo.svg'
+import forma from './forma.svg'
 
 function Contacts () {
  
@@ -9,15 +15,19 @@ function Contacts () {
         <div className='container'>
            
             <div className='box'>
+
+                <img src={forma} className='forma'></img>
+                <img src={circulo} className='circulo'></img>
                 <h1 id='one'>Contact Informations</h1>
                 <h2 id="two">Alguma informação adicional</h2>
 
                 <img src={phone} id="phone"></img><p className='info'>(81) 99746-6054</p> 
-                <img src={email} id="email"></img><p className='info'>lauraluna.siqueira@hotmail.com</p>
+                <img src={email} id="email"></img><p className='info'>email.aleatorio@hotmail.com</p>
                 <img src={location} id="location"></img><p className='info'>Recife, PE</p>
-                <button id='insta'>Insta</button>
-                <button>Face</button>
-                <button>Behance</button>
+                <img src={facebook} id='f' className='f'></img>
+                <img src={instagram} id='i'></img>
+                <img src={linkedin} id='l'></img>
+                <img src={behance} id='b'></img>
             </div>
             
             <div className='containerbox'>
@@ -25,30 +35,38 @@ function Contacts () {
             
                 <label>First Name</label>
                 <br></br>
-                <input type="text" className='seila'></input>
+                <input type="text" className='input'></input>
+
+                <br></br>
             
                 <label className='teste'>Last Name</label>
                 <br></br>
-                <input type="text" id='2'></input>
+                <input type="text" className='input'></input>
+
+                <br></br>
 
 
                 <label>Email</label>
                 <br></br>
-                <input type="text" id='3'></input>
+                <input type="text" className='input'></input>
+
+                <br></br>
 
 
                 <label>Fone</label>
                 <br></br>
-                <input type="text" id='4'></input>
+                <input type="number" className='input'></input>
+
+                <br></br>
             
 
                 <p>What the of Website do you need?</p>
-                <p><input type="checkbox"></input>Web Design</p>
-                <p><input type="checkbox"></input>Logo Design</p>
-                <p><input type="checkbox"></input>Others</p>
+                <p><input type="checkbox" className='option'></input>Web Design</p> 
+                <p><input type="checkbox" className='option'></input>Logo Design</p>
+                <p><input type="checkbox" className='option'></input>Others</p>
 
-                <p>Message</p>
-                <input type="text"></input>
+                <p id='men'>Message</p>
+                <input type="text" className='input' id='input'></input>
 
                 <br></br>
 
