@@ -9,6 +9,13 @@ import behance from './behance.svg'
 import circulo from './circulo.svg'
 import forma from './forma.svg'
 
+
+function click () {
+    return (
+        alert('O formulário foi preenchido com sucesso!')
+    )
+}
+
 function Contacts () {
  
     return (
@@ -60,7 +67,7 @@ function Contacts () {
                 <br></br>
             
 
-                <p>What the of Website do you need?</p>
+                <p id='textone'>What the of Website do you need?</p>
                 <p><input type="checkbox" className='option'></input>Web Design</p> 
                 <p><input type="checkbox" className='option'></input>Logo Design</p>
                 <p><input type="checkbox" className='option'></input>Others</p>
@@ -70,7 +77,7 @@ function Contacts () {
 
                 <br></br>
 
-                <button className='btnsend'>Send</button>
+                <button className='btnsend' onClick={click}>Send</button>
 
                 
 

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 
 
@@ -15,8 +16,8 @@
     border-radius: 20px;
     width: 400px;
     height: 400px;
-    margin-left: 10%;
-    margin-top: 5%;
+    margin-left: 5%;
+    margin-top: 15%;
 }
 
 h1#one {
@@ -50,9 +51,10 @@ img#phone, #email, #location {
 }
 
 .containerbox {
-    margin-top: 5%;
-    margin-right: 12%;
+    margin-top: 15%;
+    margin-right: 5%;
     columns: 2;
+    font-family: 'Inter', sans-serif;
 }
 
 img#f, #i, #l, #b {
@@ -60,7 +62,7 @@ img#f, #i, #l, #b {
     height: 20px;
     margin-left: 15%;
     background-position: center;
-    margin-top: 10%;
+    margin-top: 20%;
 }
 
 
@@ -100,10 +102,14 @@ img#f, #i, #l, #b {
     border-bottom: 1.5px solid black;
     height: 20px;
     width: 200px;
-    margin-bottom: 14%;
+    margin-bottom: 18%;
 }
 
 p#men {
    margin-top: 20%;
+   font-weight: bold;
 }
 
+p#textone {
+    font-weight: bold;
+}
